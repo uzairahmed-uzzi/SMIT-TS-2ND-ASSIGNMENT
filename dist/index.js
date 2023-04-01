@@ -26,8 +26,8 @@ class Vehicle {
     }
     //MUTATOR(SETTER) METHOD FOR RENTED MEMBER
     //STEP 5
-    set rented(rente) {
-        this._rented = rente;
+    set rented(rented) {
+        this._rented = rented;
     }
     //STEP 7
     rent() {

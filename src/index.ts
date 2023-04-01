@@ -29,8 +29,8 @@ abstract class Vehicle
     }
     //MUTATOR(SETTER) METHOD FOR RENTED MEMBER
     //STEP 5
-    set rented(rente:boolean){
-        this._rented=rente;
+    set rented(rented:boolean){
+        this._rented=rented;
     }
     //STEP 6
     abstract rentalRate ():number;
