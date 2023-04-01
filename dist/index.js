@@ -142,16 +142,20 @@ class MotorCycle extends Vehicle {
     }
 }
 //STEP 10
-const car1 = new Car("KIA", "SPORTAGE", 2020, "suv", 1999, 140);
-const bike1 = new MotorCycle("YAMAHA", "KAWASAKI NINJA", 2022, "SPORTS", "4-stroke Parallel Twin");
-const truck1 = new Truck("HONDA", "RIDGELINE", 2023, 4);
-console.log(car1.make + " " + car1.model + " HAS RENTAL RATE: " + car1.rentalRate());
-console.log("\n car1.rent() :" + car1.rent());
-console.log("\n car1.return() :" + car1.return());
-console.log("\n\n" + bike1.make + " " + bike1.model + " HAS RENTAL RATE: " + bike1.rentalRate());
-console.log("\n bike1.rent() :" + bike1.rent());
-console.log("\n bike1.return() :" + bike1.return());
-console.log("\n\n" + truck1.make + " " + truck1.model + " HAS RENTAL RATE: " + truck1.rentalRate());
-console.log("\n truck1.rent(): " + truck1.rent());
-console.log("\n truck1.return(): " + truck1.return());
+//CREATING INSTANCES OF ALL CHILD CLASSES
+const car = new Car("KIA", "SPORTAGE", 2020, "suv", 1999, 140);
+const bike = new MotorCycle("YAMAHA", "KAWASAKI NINJA", 2022, "SPORTS", "4-stroke Parallel Twin");
+const truck = new Truck("HONDA", "RIDGELINE", 2023, 4);
+//EXECUTING RENT AND RETURN  METHODS OF CAR
+console.log(car.make + " " + car.model + " HAS RENTAL RATE: " + car.rentalRate());
+console.log("\n car.rent() :" + car.rent());
+console.log("\n car.return() :" + car.return());
+//EXECUTING RENT AND RETURN  METHODS OF BIKE
+console.log("\n\n" + bike.make + " " + bike.model + " HAS RENTAL RATE: " + bike.rentalRate());
+console.log("\n bike.rent() :" + bike.rent());
+console.log("\n bike.return() :" + bike.return());
+//EXECUTING RENT AND RETURN  METHODS OF TRUCK
+console.log("\n\n" + truck.make + " " + truck.model + " HAS RENTAL RATE: " + truck.rentalRate());
+console.log("\n truck.rent(): " + truck.rent());
+console.log("\n truck.return(): " + truck.return());
 //# sourceMappingURL=index.js.map
