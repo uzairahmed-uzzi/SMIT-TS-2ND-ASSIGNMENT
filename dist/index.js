@@ -103,6 +103,9 @@ class Truck extends Vehicle {
             return 4000.0;
         }
     }
+    get wheeler() {
+        return this._wheeler;
+    }
 }
 class MotorCycle extends Vehicle {
     constructor(make, model, year, _look, _engineType) {

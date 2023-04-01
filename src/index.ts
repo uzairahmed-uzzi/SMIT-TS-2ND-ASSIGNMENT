@@ -101,6 +101,9 @@ class Truck extends Vehicle{
                 return 4000.0
             }
         }
+        get wheeler():number{
+            return this._wheeler;
+        }
 }
 
 class MotorCycle extends Vehicle{
